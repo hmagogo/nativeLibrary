@@ -1,0 +1,12 @@
+{
+  "name": "nativeLibrary",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "compressCookies": "uglifyjs ./js/storage/cookies.js -m -o ./dist/js/cookies.min.js",
+    "public": "uglifyjs ./js/public.js -m -o ./dist/js/public.min.js"
+  },
+  "dependencies": {
+    "uglify-js": "^3.0.20"
+  }
+}

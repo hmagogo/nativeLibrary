@@ -1,0 +1,15 @@
+/**
+ * Created by HMX on 2017/06/06.
+ * 描述：表格相关的样式集
+ */
+
+/** 表格文本过长省略掉 **/
+.table-hideLongText {
+    table-layout: fixed;
+}
+
+.table-hideLongText td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
